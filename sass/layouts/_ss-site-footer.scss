@@ -1,0 +1,189 @@
+.site-footer {
+
+    &__content,
+    &__quick,
+    &__suscribe {
+        h4 {
+            @include font-size(1.35rem);
+            margin-bottom: 1rem;
+            font-weight: 500;
+
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 2rem;
+                @include font-size(1.875rem);
+
+            }
+
+            @include media-breakpoint-up(xl) {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    &__content {
+        line-height: 1.5;
+    }
+
+    &__quick {
+        ul {
+            padding-left: 0;
+
+            li {
+                list-style-type: none;
+                margin-bottom: 0.8rem;
+
+                @include media-breakpoint-up(lg) {
+                    margin-bottom: 1rem;
+                    display: block;
+                }
+
+                a {
+                    color: $black;
+                    padding: 0.625rem;
+                    border-radius: 6px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:focus,
+                    &:hover {
+                        text-decoration: none;
+                        background-color: $bright-voilet;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    &__suscribe {
+        .form-holder-1 {
+            @include media-breakpoint-up(sm) {
+                display: flex;
+                align-items: center;
+
+            }
+
+            .form-group {
+                margin-bottom: 0;
+            }
+
+            .form-control {
+                height: 38.78px;
+                border-radius: 0;
+
+                @include media-breakpoint-up(md) {
+                    height: 51.38px;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    height: 60.78px;
+                }
+            }
+
+            .btn-wrap {
+                @include media-breakpoint-down(sm) {
+                    text-align: center;
+                    margin-top: 0.8rem;
+                }
+
+                @include media-breakpoint-up(sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .social-links {
+            ul {
+                padding-left: 0;
+
+                li {
+                    list-style-type: none;
+                    display: inline-block;
+                    margin-bottom: 1rem;
+
+                    @include media-breakpoint-up(lg) {
+                        margin-right: 0.8rem;
+
+                    }
+
+
+                    a {
+                        background-color: $bright-voilet;
+                        color: $white;
+                        padding: 0.425rem 0.6rem;
+                        border-radius: 50%;
+                        border: 1px solid transparent;
+                        transition: all 0.3s ease-in-out;
+
+                        @include media-breakpoint-up(lg) {
+                            padding: 0.625rem 0.8rem;
+                        }
+
+                        &:focus,
+                        &:hover {
+                            text-decoration: none;
+                            background-color: $white;
+                            color: $bright-voilet;
+                            border-color: $bright-voilet;
+                            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        background-color: $voilet;
+
+        .row {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            @include media-breakpoint-down(md) {
+                text-align: center;
+            }
+
+            span {
+                color: $white;
+
+                a {
+                    color: $orange;
+                    transition: all 0.3s ease-in-out;
+
+                    &:focus,
+                    &:hover {
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &__nav {
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+
+        ul {
+            justify-content: end;
+
+            li {
+                a {
+                    color: $white;
+                    border-radius: 6px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:focus,
+                    &:hover {
+                        background-color: $white;
+                        color: $voilet;
+                    }
+                }
+            }
+        }
+    }
+}

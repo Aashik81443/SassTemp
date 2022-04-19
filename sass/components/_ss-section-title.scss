@@ -1,0 +1,30 @@
+//section-title
+.section-title {
+    h2 {
+        @include font-size(1.625rem);
+        font-weight: 600;
+        color: $black;
+
+        @include media-breakpoint-up(md) {
+            @include font-size(1.9rem);
+        }
+
+        @include media-breakpoint-up(lg) {
+            @include font-size(2.5rem);
+        }
+
+        @include media-breakpoint-up(xl) {
+            @include font-size(3rem);
+        }
+        @include media-breakpoint-up(xxl) {
+            @include font-size(4rem);
+        }
+    }
+
+    &--alt{
+        // background-color: $bright-voilet;
+        h2{
+            color: $white;
+        }
+    }
+}

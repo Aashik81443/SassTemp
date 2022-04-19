@@ -1,0 +1,49 @@
+//form
+.form-holder {
+    max-width: 704px;
+    margin: 0 auto;
+
+    .form-group {
+        textarea {
+            height: 130px;
+
+            @include media-breakpoint-up(md) {
+                height: 150px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                height: 160px;
+                padding-top: 1.3rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                height: 179px;
+            }
+        }
+    }
+
+    .form-control {
+        height: 45px;
+        background-color: #FCFDFF;
+        border-radius: 10px;
+
+        @include media-breakpoint-up(md) {
+            height: 55px;
+            padding-left: 1rem;
+        } 
+
+        @include media-breakpoint-up(lg) {
+            height: 65px;
+            padding-left: 2rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            height: 75px;
+        }
+
+        &:focus,
+        &:hover{
+            border-color: #C3CCE8;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+//services
+.services {
+    background-color: $light-voilet;
+
+    .row {
+        justify-content: center;
+    }
+
+    &-block {
+        span {
+            max-width: 582px;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            line-height: 1.5;
+        }
+    }
+}
+
+//structure
+.structure {
+    background-color: rgba($light-voilet, 0.35);
+
+    .row {
+        align-items: center;
+    }
+
+    &-content {
+        line-height: 1.5;
+    }
+}
+
+//get-started
+.get-started {
+    background-color: $voilet;
+
+    &__content {
+        color: $white;
+        max-width: 728px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+//testimonial
+.testimonial {
+    background-color: rgba($light-voilet, 0.35);
+}
+
+//pricing-plan
+.pricing-plan {
+    &__content {
+        max-width: 838px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+        color: $white;
+
+    }
+}
+
+//questions
+.questions {
+    &-content {
+        max-width: 947px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+        color: $black;
+
+    }
+}
+
+//contact
+.contact {
+    background-color: rgba($light-voilet, 0.35);
+
+    &-block {
+        max-width: 669px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+        color: $black;
+    }
+}

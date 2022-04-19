@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="vendors/slick/slick.css">
+	<link rel="stylesheet" href="vendors/aos-master/aos.css">
+	<title>Sass Temp</title>
+</head>
+
+<body>
+	<header id="header" class="site-header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" width="283" height="90"
+						loading="lazy" alt="Header Logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="icon-menu"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">why us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">contact us</a>
+						</li>
+					</ul>
+					<div class="btn-wrap my-2 my-lg-0">
+						<a href="#" class="btn btn-sm">Register</a>
+					</div>
+				</div>
+			</nav> <!-- / .site-nav -->
+		</div>
+
+	</header> <!-- / .site-header -->
+
+	<main id="main" class="site-content">
+		<section class="banner">
+			<div class="container">
+				<div class="banner-content text-center pt-xl-5 pt-3 pb-xl-5 pb-lg-3 pb-2">
+					<h1>Discover With New Dashboard</h1>
+					<span>Sed hendrerit metus tortor, quis volutpat en\im gravida imperdiet.</span>
+					<picture class="banner-media mt-xl-3 mt-2">
+						<source srcset="assets/images/banner-img.webp" type="image/webp">
+						<source srcset="assets/images/banner-img.jpg" type="image/jpg">
+						<img src="assets/images/banner-img.jpg" width="909" height="558" loading="lazy" alt="Banner Image">
+					</picture>
+					<div class="btn-wrap mt-xl-3 mt-2">
+						<a href="#" class="btn btn-primary">Get it now</a>
+						<a href="#" class="btn btn-primary btn-primary--alt ml-xl-3 ml-lg-2 ml-1">play now</a>
+					</div><!-- / .btn-wrap -->
+				</div><!-- / .banner-content -->
+			</div>
+		</section><!-- / .banner -->
+
+		<section class="services pt-xxl-9 pt-xl-7 pt-lg-5 pt-md-3 pt-2 pb-xl-7 pb-lg-5 pb-md-3 pb-2">
+			<div class="container">
+				<div class="services-block">
+					<span>Proin rhoncus, neque sed congue commodo, orci magna tristique
+						ipsum, vel egestas risus augue quis justo.</span>
+
+					<div class="row card-icon__block pt-xl-6 pt-lg-5 pt-md-4 pt-2">
+						<div class="col-lg-4 col-md-6 mb-lg-3 mb-md-2 mb-1" data-aos="fade-right">
+							<div class="card-icon">
+								<i class="icon-notes mb-lg-2 mb-1"></i>
+								<div class="card-icon__content">
+									<h3>Useable Guide</h3>
+									<p>Donec tempor finibus ante ac luctus.
+										Fusce facilisis nisi. Donec tempor finibus
+										ante ac luctus. Fusce facilisis nisi tempor
+										finibus ante ac luctus facilisi.</p>
+								</div><!-- / .card-icon__content -->
+							</div><!-- / .card-icon -->
+						</div>
+						<div class="col-lg-4 col-md-6 mb-lg-3 mb-md-2 mb-1" data-aos="zoom-in">
+							<div class="card-icon">
+								<i class="icon-logo-design icon-green mb-lg-2 mb-1"></i>
+								<div class="card-icon__content">
+									<h3>Perfect Ui/Ux System</h3>
+									<p>Donec tempor finibus ante ac luctus.
+										Fusce facilisis nisi. Donec tempor finibus
+										ante ac luctus. Fusce facilisis nisi tempor
+										finibus ante ac luctus facilisi.</p>
+								</div><!-- / .card-icon__content -->
+							</div><!-- / .card-icon -->
+						</div>
+						<div class="col-lg-4 col-md-6 mb-lg-3 mb-md-2 mb-1" data-aos="fade-left">
+							<div class="card-icon">
+								<i class="icon-hours icon-orange mb-lg-2 mb-1"></i>
+								<div class="card-icon__content">
+									<h3>24h/7 Days Support</h3>
+									<p>Donec tempor finibus ante ac luctus.
+										Fusce facilisis nisi. Donec tempor finibus
+										ante ac luctus. Fusce facilisis nisi tempor
+										finibus ante ac luctus facilisi.</p>
+								</div><!-- / .card-icon__content -->
+							</div><!-- / .card-icon -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- / .services -->
+
+		<section class="structure py-lg-5 py-md-3 py-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 mb-lg-0 mb-2" data-aos="zoom-in">
+						<picture class="structure-media">
+							<source srcset="assets/images/structure.webp" type="image/webp">
+							<source srcset="assets/images/structure.png" type="image/png">
+							<img src="assets/images/structure.png" width="904" height="676" loading="lazy"
+								alt="Structure Image">
+						</picture><!-- / .structure-media -->
+					</div>
+					<div class="col-md-6" data-aos="fade-left">
+						<div class="structure-content pl-xxl-3">
+							<div class="section-title mb-1">
+								<h2>Perfect UX Structure</h2>
+							</div><!-- / .section-title -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui orci, sodales a
+								pellentesque vel, pharetra quis elit. In scelerisque lacinia diam eget egestas. Etiam
+								non dui eu felis vestibulum.</p>
+							<div class="btn-wrap mt-lg-3 mt-md-2 mt-1">
+								<a href="#" class="btn btn-primary btn-primary--alt">Get it now</a>
+							</div>
+						</div><!-- / .structure-content -->
+					</div>
+				</div>
+			</div>
+		</section><!-- / .structure -->
+
+		<section class="get-started py-lg-5 py-md-3 py-2">
+			<div class="container">
+				<div class="get-started__content" data-aos="zoom-out">
+					<div class="section-title section-title--alt mb-xxl-4 mb-lg-3 mb-md-2 mb-1">
+						<h2>Ready to Get Started</h2>
+					</div><!-- / .section-title--alt -->
+					<p>Donec tempor finibus ante ac luctus. Fusce facilisis nisi vel odio tincidunt maximus.
+						Pellentesque tempus gravida viverra.</p>
+					<div class="btn-wrap mt-lg-3 mt-2">
+						<a href="#" class="btn btn-primary">Get it now</a>
+					</div>
+				</div><!-- / .get-started__content-->
+			</div>
+		</section><!-- / .get-started-->
+
+		<section class="task py-lg-5 py-md-3 py-2">
+			<div class="container">
+				<div class="row flex-row-reverse align-items-center">
+					<div class="col-md-6 mb-lg-0 mb-2" data-aos="fade-left">
+						<picture class="task-media pl-xxl-3">
+							<source srcset="assets/images/task-img.webp" type="image/webp">
+							<source srcset="assets/images/task-img.png" type="image/png">
+							<img src="assets/images/task-img.png" width="912" height="676" loading="lazy"
+								alt="Task Image">
+						</picture><!-- / .structure-media -->
+					</div>
+					<div class="col-md-6" data-aos="fade-right">
+						<div class="task-content">
+							<div class="section-title mb-1">
+								<h2>Do Your Task Easily</h2>
+							</div><!-- / .section-title -->
+							<div class="check-list">
+								<ul>
+									<li>Sodales a pellentesque vel, pharetra quis elit. In scelerisque lacinia diam eget
+										egestas.</li>
+									<li>Sodales a pellentesque vel, pharetra quis elit. In scelerisque lacinia diam eget
+										egestas.</li>
+									<li>Sodales a pellentesque vel, pharetra quis elit. In scelerisque lacinia diam eget
+										egestas.</li>
+								</ul>
+							</div><!-- / .check-list-->
+							<div class="btn-wrap mt-lg-3 mt-md-2 mt-1">
+								<a href="#" class="btn btn-primary btn-primary--alt">Get it now</a>
+							</div>
+						</div><!-- / .structure-content -->
+					</div>
+				</div>
+			</div>
+		</section><!-- / .task-->
+
+		<section class="testimonial py-lg-5 py-md-3 py-2">
+			<div class="container">
+				<div class="section-title text-center mb-xxl-4 mb-lg-3 mb-md-2 mb-1">
+					<h2>Testimonial</h2>
+				</div><!-- / .section-title--alt -->
+				<div class="testimonial-slider">
+					<div class="testimonial-slider__item">
+						<blockquote class="blockquote">
+							<picture class="blockquote-media mb-lg-2 mb-1">
+								<source srcset="assets/images/jane-doe.webp" type="image/webp">
+								<source srcset="assets/images/jane-doe.jpg" type="image/jpg">
+								<img src="assets/images/jane-doe.jpg" width="86" height="86" loading="lazy"
+									alt="Jane Doe">
+							</picture><!-- / .blockquote-media -->
+							<div class="blockquote-author mb-md-2 mb-1">
+								<h2>jane doe</h2>
+								<span>CEO, Inkyy</span>
+							</div><!-- / .blockquote-author -->
+							<div class="blockquote-content">
+								<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel
+									mi
+									id tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.
+									Praesent
+									ligula ante, accumsan eget ornare vel.</p>
+								<div class="reviews mt-lg-2">
+									<ul>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+									</ul>
+								</div>
+							</div><!-- / .blockquote-content -->
+						</blockquote><!-- / .blockquote -->
+					</div><!-- / .testimonial-slider__item -->
+					<div class="testimonial-slider__item">
+						<blockquote class="blockquote">
+							<picture class="blockquote-media mb-lg-2 mb-1">
+								<source srcset="assets/images/bojan-sandic.webp" type="image/webp">
+								<source srcset="assets/images/bojan-sandic.jpg" type="image/jpg">
+								<img src="assets/images/bojan-sandic.jpg" width="86" height="86" loading="lazy"
+									alt="Bojan Sandic Doe">
+							</picture><!-- / .blockquote-media -->
+							<div class="blockquote-author mb-md-2 mb-1">
+								<h2>Bojan Sandic</h2>
+								<span>CEO, Inkyy</span>
+							</div><!-- / .blockquote-author -->
+							<div class="blockquote-content">
+								<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel
+									mi
+									id tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.
+									Praesent
+									ligula ante, accumsan eget ornare vel.</p>
+								<div class="reviews mt-lg-2">
+									<ul>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+									</ul>
+								</div>
+							</div><!-- / .blockquote-content -->
+						</blockquote><!-- / .blockquote -->
+					</div><!-- / .testimonial-slider__item -->
+					<div class="testimonial-slider__item">
+						<blockquote class="blockquote">
+							<picture class="blockquote-media mb-lg-2 mb-1">
+								<source srcset="assets/images/moni.webp" type="image/webp">
+								<source srcset="assets/images/moni.jpg" type="image/jpg">
+								<img src="assets/images/moni.jpg" width="86" height="86" loading="lazy" alt="moni Doe">
+							</picture><!-- / .blockquote-media -->
+							<div class="blockquote-author mb-md-2 mb-1">
+								<h2>moni doe</h2>
+								<span>CEO, Inkyy</span>
+							</div><!-- / .blockquote-author -->
+							<div class="blockquote-content">
+								<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel
+									mi
+									id tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.
+									Praesent
+									ligula ante, accumsan eget ornare vel.</p>
+								<div class="reviews mt-lg-2">
+									<ul>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+									</ul>
+								</div>
+							</div><!-- / .blockquote-content -->
+						</blockquote><!-- / .blockquote -->
+					</div><!-- / .testimonial-slider__item -->
+					<div class="testimonial-slider__item">
+						<blockquote class="blockquote">
+							<picture class="blockquote-media mb-lg-2 mb-1">
+								<source srcset="assets/images/jane-doe.webp" type="image/webp">
+								<source srcset="assets/images/jane-doe.jpg" type="image/jpg">
+								<img src="assets/images/jane-doe.jpg" width="86" height="86" loading="lazy"
+									alt="ane Doe">
+							</picture><!-- / .blockquote-media -->
+							<div class="blockquote-author mb-md-2 mb-1">
+								<h2>jane doe</h2>
+								<span>CEO, Inkyy</span>
+							</div><!-- / .blockquote-author -->
+							<div class="blockquote-content">
+								<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel
+									mi
+									id tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.
+									Praesent
+									ligula ante, accumsan eget ornare vel.</p>
+								<div class="reviews mt-lg-2">
+									<ul>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+									</ul>
+								</div>
+							</div><!-- / .blockquote-content -->
+						</blockquote><!-- / .blockquote -->
+					</div><!-- / .testimonial-slider__item -->
+					<div class="testimonial-slider__item">
+						<blockquote class="blockquote">
+							<picture class="blockquote-media mb-lg-2 mb-1">
+								<source srcset="assets/images/jane-doe.webp" type="image/webp">
+								<source srcset="assets/images/jane-doe.jpg" type="image/jpg">
+								<img src="assets/images/jane-doe.jpg" width="86" height="86" loading="lazy"
+									alt="ane Doe">
+							</picture><!-- / .blockquote-media -->
+							<div class="blockquote-author mb-md-2 mb-1">
+								<h2>jane doe</h2>
+								<span>CEO, Inkyy</span>
+							</div><!-- / .blockquote-author -->
+							<div class="blockquote-content">
+								<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel
+									mi
+									id tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.
+									Praesent
+									ligula ante, accumsan eget ornare vel.</p>
+								<div class="reviews mt-lg-2">
+									<ul>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+										<li><i class="icon-star"></i></li>
+									</ul>
+								</div>
+							</div><!-- / .blockquote-content -->
+						</blockquote><!-- / .blockquote -->
+					</div><!-- / .testimonial-slider__item -->
+				</div><!-- / .testimonial-slider -->
+			</div>
+		</section><!-- / .testimoninal -->
+
+		<section class="pricing-plan bg-cover py-lg-5 py-md-3 py-2">
+			<img src="assets/images/pricing-plan-bg.jpg" width="1920" height="1319" loading="lazy"
+				alt="Pricing Plan bg">
+			<div class="container">
+				<div class="pricing-plan__content mb-xxl-5 mb-lg-4 mb-md-3 mb-2">
+					<div class="section-title section-title--alt  mb-lg-3 mb-md-2 mb-1" data-aos="zoom-in">
+						<h2>Ready to Get Started</h2>
+					</div><!-- / .section-title--alt -->
+					<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel mi id
+						tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.</p>
+				</div><!-- / .pricing-plan__content -->
+				<div class="row card-pricing__block">
+					<div class="col-lg-4 mb-lg-3 mb-md-2 mb-1" data-aos="flip-right">
+						<div class="card-pricing">
+							<div class="card-pricing__head mb-lg-2 mb-1">
+								<span>level 1</span>
+								<h2>$15
+									<small>per month / per user</small>
+								</h2>
+								<p>For administrators or others requiring full access to all functionality</p>
+							</div><!-- / .card-pricing__content-->
+							<div class="card-pricing__body check-list check-list--alt mb-xl-4 mb-lg-3 mb-md-2 mb-1">
+								<ul>
+									<li>Mollis Ornare Pretium</li>
+									<li>Aenean Pretium</li>
+									<li>Donec Convallis Metus</li>
+									<li>Integer Volutpat</li>
+									<li>Quis Euismod Pharetra</li>
+								</ul>
+							</div><!-- / .check-list-->
+							<div class="card-pricing__footer">
+								<a href="#" class="btn btn-primary btn-primary--alt stretched-link">free trial</a>
+							</div><!-- / .btn-wrap-->
+						</div><!-- / .card-pricing-->
+					</div>
+					<div class="col-lg-4 mb-lg-3 mb-md-2 mb-1" data-aos="flip-up">
+						<div class="card-pricing">
+							<div class="card-pricing__head mb-lg-2 mb-1">
+								<span>level 2</span>
+								<h2>$25
+									<small>per month / per user</small>
+								</h2>
+								<p>For project managers, resource
+									managers, admin staff etc</p>
+							</div><!-- / .card-pricing__content-->
+							<div class="card-pricing__body check-list check-list--alt mb-xl-4 mb-lg-3 mb-md-2 mb-1">
+								<ul>
+									<li>Mollis Ornare Pretium</li>
+									<li>Aenean Pretium</li>
+									<li>Donec Convallis Metus</li>
+									<li>Integer Volutpat</li>
+									<li>Quis Euismod Pharetra</li>
+								</ul>
+							</div><!-- / .check-list-->
+							<div class="card-pricing__footer">
+								<a href="#" class="btn btn-primary btn-primary--alt stretched-link">free trial</a>
+							</div><!-- / .btn-wrap-->
+						</div><!-- / .card-pricing-->
+					</div>
+					<div class="col-lg-4 mb-lg-3 mb-md-2 mb-1" data-aos="flip-left">
+						<div class="card-pricing">
+							<div class="card-pricing__head mb-lg-2 mb-1">
+								<span>level 3</span>
+								<h2>$40
+									<small>per month / per user</small>
+								</h2>
+								<p>For administrators or others requiring full access to all functionality</p>
+							</div><!-- / .card-pricing__content-->
+							<div class="card-pricing__body check-list check-list--alt mb-xl-4 mb-lg-3 mb-md-2 mb-1">
+								<ul>
+									<li>Mollis Ornare Pretium</li>
+									<li>Aenean Pretium</li>
+									<li>Donec Convallis Metus</li>
+									<li>Integer Volutpat</li>
+									<li>Quis Euismod Pharetra</li>
+								</ul>
+							</div><!-- / .check-list-->
+							<div class="card-pricing__footer">
+								<a href="#" class="btn btn-primary btn-primary--alt stretched-link">free trial</a>
+							</div><!-- / .btn-wrap-->
+						</div><!-- / .card-pricing-->
+					</div>
+				</div>
+			</div>
+		</section><!-- / .pricing-plan -->
+
+		<section class="questions py-lg-5 py-md-3 py-2">
+			<div class="container">
+				<div class="questions-content mb-xxl-5 mb-lg-4 mb-md-3 mb-2">
+					<div class="section-title mb-lg-3 mb-md-2 mb-1">
+						<h2>Frequently Asked Questions</h2>
+					</div><!-- / .section-title--alt -->
+					<p>Donec augue lorem, mollis quis dui sed, dictum vehicula turpis. Aliquam bibendum vel mi id
+						tempor. Sed efficitur scelerisque mi. Nullam posuere nec ex in malesuada.</p>
+				</div><!-- / .questions-content -->
+				<div class="row question-tile__block">
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Fusce Sodales Placerat Nibh Eget ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Fusce Sodales Placerat Nibh Eget ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Vestibulum Porttitor Convallis Lectus ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Vestibulum Porttitor Convallis Lectus ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Fusce Sodales Placerat Nibh Eget ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+					<div class="col-md-6 mb-lg-3 mb-md-2 mb-1 ml-md-0 ml-1">
+						<div class="question-tile">
+							<h3>Fusce Sodales Placerat Nibh Eget ?</h3>
+							<p>Duis sagittis orci non risus semper feugiat. Fusce ullamcorper sollicitudin velit et
+								pretium.
+								Ut quis orci sed dolor accumsan ultrices. Nunc ut ornare tellus. Nulla ut eros non lorem
+								rhoncus blandit.</p>
+						</div><!-- / .question-tile-->
+					</div>
+				</div>
+			</div>
+		</section><!-- / .questions -->
+
+		<section class="contact py-lg-5 py-md-3 py-2" data-aos="zoom-out">
+			<div class="container">
+				<div class="contact-block mb-xxl-5 mb-lg-4 mb-md-3 mb-2">
+					<div class="section-title mb-lg-3 mb-md-2 mb-1">
+						<h2>Drop A Message</h2>
+					</div><!-- / .section-title--alt -->
+					<p>Donec tempor finibus ante ac luctus. Fusce facilisis nisi vel odio tincidunt maximus.
+						Pellentesque tempus gravida viverra.</p>
+				</div><!-- / .questions-content -->
+				<div class="form-holder">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" placeholder="Message" rows="3"></textarea>
+						</div>
+						<div class="btn-wrap text-center mt-lg-3 mt-2">
+							<button type="submit" class="btn btn-primary btn-primary--alt">Send message</button>
+						</div>
+					</form>
+				</div><!-- / .form-holder -->
+			</div>
+		</section><!-- / .contact -->
+
+		<section class="get-started py-lg-5 py-md-3 py-2" data-aos="zoom-in">
+			<div class="container">
+				<div class="get-started__content">
+					<div class="section-title section-title--alt mb-xxl-4 mb-lg-3 mb-md-2 mb-1">
+						<h2>Ready to Get Started</h2>
+					</div><!-- / .section-title--alt -->
+					<p>Donec tempor finibus ante ac luctus. Fusce facilisis nisi vel odio tincidunt maximus.
+						Pellentesque tempus gravida viverra.</p>
+					<div class="btn-wrap mt-lg-3 mt-2">
+						<a href="#" class="btn btn-primary">Get it now</a>
+					</div>
+				</div><!-- / .get-started__content-->
+			</div>
+		</section><!-- / .get-started-->
+	</main> <!-- / .site-content -->
+
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			<div class="site-footer__top py-lg-4 py-md-3 py-2" data-aos="fade-right">
+				<div class="row">
+					<div class="col-lg-4 col-sm-7">
+						<div class="site-footer__content">
+							<h4>About Saas Temp</h4>
+							<p>Aliquam fermentum tellus vitae nisl dictum vel sodales diam molestie. Pellentesque nec
+								orci posuere, feugiat quam sed.
+							</p>
+							<p>Nam tincidunt lectus quis nibh ultrices, vitae congue risus porta mauris eros.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-5">
+						<div class="site-footer__quick">
+							<h4>Quick Link</h4>
+							<ul>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Testimonail</a></li>
+								<li><a href="#">Support</a></li>
+								<li><a href="#">Pricing</a></li>
+								<li><a href="#">About App</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="site-footer__suscribe">
+							<h4>Subscribe Our Newsletter</h4>
+							<form action="#" class="form-holder-1 mb-xl-3 mb-2">
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Enter Email Address">
+								</div>
+								<div class="btn-wrap">
+									<a href="#" class="btn btn-suscribe">suscribe <i class="icon-send"></i></a>
+								</div>
+							</form>
+							<div class="social-links">
+								<ul>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-linked"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- / .site-footer__top -->
+		</div>
+		<div class="site-footer__bottom py-lg-2 py-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="copyright">
+							<span> @ 2022 Designed by <a href="#">Aashik Sharma</a></span>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="site-footer__nav">
+							<ul class="nav">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Why us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Testimonials</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">FAQ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- / .site-footer__bottom -->
+	</footer> <!-- / .site-footer -->
+
+
+
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="vendors/slick/slick.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+	</script>
+	<script src="vendors/aos-master/aos.js"></script>
+</body>
+
+</html>
